@@ -1,21 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sinchana S</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sinchana S | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="font-family: Arial; text-align: center; margin-top: 60px;">
+<body>
+  <nav>
+  <a href="#home">Home</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+<section id="home" class="hero">
+
     <h1>Hi, I'm Sinchana S 👋</h1>
-    <h2>Information Science Engineering Student</h2>
 
-    <p>Welcome to my personal website!</p>
+    <h2 class="typing">Aspiring Software Developer</h2>
 
-    <h3>Skills</h3>
-    <p>Python | SQL | DBMS | HTML | CSS</p>
+    <p>
+        I am an Information Science Engineering student passionate about
+        Python, Web Development, and Database Management.
+        I enjoy building projects and continuously learning new technologies.
+    </p>
 
-    <h3>Projects</h3>
-    <p>📌 Stock Portfolio Tracker (DBMS Mini Project)</p>
+<a href="#projects" class="btn">View Projects</a>
+<a href="#contact" class="btn">Contact Me</a>
 
-    <h3>Contact</h3>
-    <p>Email: your-email@example.com</p>
+</section>
+<section id="about" class="section">
+  <h3>About Me</h3>
+  <p>
+    I am an Information Science Engineering student passionate about coding and building projects.
+  </p>
+</section>
+
+<section id="skills" class="section">
+  <h2>My Skills</h2>
+
+  <p>HTML</p>
+  <div class="skill-bar">
+    <div class="skill html">90%</div>
+  </div>
+
+  <p>CSS</p>
+  <div class="skill-bar">
+    <div class="skill css">85%</div>
+  </div>
+
+  <p>Python</p>
+  <div class="skill-bar">
+    <div class="skill python">75%</div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3>Stock Portfolio Tracker</h3>
+        <p>DBMS Mini Project using database concepts to track stocks and investments.</p>
+        <a href="#" class="btn">View Project</a>
+    </div>
+
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name" required><br><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+        <textarea placeholder="Your Message" rows="5"></textarea><br><br>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+ <script src="script.js"></script>
+ <footer>
+  <p>© 2026 Sinchana S | Portfolio</p>
+</footer>
 </body>
 </html>
